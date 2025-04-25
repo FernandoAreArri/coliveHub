@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelivn - Hogares para Freelancers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Sección Hero -->
+  <section class="relative h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('https://img.freepik.com/foto-gratis/companeros-cuarto-compartiendo-momentos-felices-juntos_23-2149112189.jpg?t=st=1745602128~exp=1745605728~hmac=7ab46669983f712db78ae53cb5aa8386eea66217e19f2ede97ab97661b9f5787&w=1380');">
+    <div class="bg-black bg-opacity-50 p-8 rounded-xl max-w-2xl text-center text-white">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Encuentra tu hogar. Conecta con otros freelancers.</h1>
+      <p class="text-lg md:text-xl mb-6">La red de pisos pensada para quienes trabajan de forma independiente y buscan más que un lugar donde dormir.</p>
+      <a href="#contacto" class="bg-white text-gray-800 font-semibold px-6 py-3 rounded-full hover:bg-gray-200 transition">Únete ahora</a>
+    </div>
+  </section>
+
+  <!-- Sección Beneficios -->
+  <section class="py-16 px-4 md:px-20">
+    <h2 class="text-3xl font-bold mb-10 text-center">¿Por qué Freelivn?</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="bg-white shadow-xl p-6 rounded-xl">
+        <h3 class="text-xl font-semibold mb-2">Vivienda flexible y asequible</h3>
+        <p>Conecta con otros freelancers y comparte gastos para vivir mejor en zonas estratégicas sin arruinarte.</p>
+      </div>
+      <div class="bg-white shadow-xl p-6 rounded-xl">
+        <h3 class="text-xl font-semibold mb-2">Descuentos por servicios compartidos</h3>
+        <p>Ahorra en coworkings, internet y limpieza al compartir con otros profesionales como tú.</p>
+      </div>
+      <div class="bg-white shadow-xl p-6 rounded-xl">
+        <h3 class="text-xl font-semibold mb-2">Comunidad que suma</h3>
+        <p>Más que compañeros de piso: crea conexiones, colabora en proyectos y haz crecer tu red.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería Visual -->
+  <section class="py-12 px-4 md:px-20 bg-gray-100">
+    <div class="grid md:grid-cols-2 gap-8">
+      <img src="https://img.freepik.com/foto-gratis/pareja-alegre-telefono-mientras-muda-casa_329181-18228.jpg?t=st=1745602229~exp=1745605829~hmac=26ae4598caf0ab91108e750383f0a49b4153de9344c087eb8e17bfa9c9373de8&w=1380" alt="Mudanza feliz" class="rounded-xl shadow-lg">
+      <img src="https://img.freepik.com/foto-gratis/companeros-piso-completos-pasando-tiempo-casa_23-2149358458.jpg?t=st=1745602389~exp=1745605989~hmac=7c3bed033f07c318d677d3b6a5745f336eba09f9fc8e85610b19ec98d1d7848b&w=1380" alt="Comunidad en el hogar" class="rounded-xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="py-16 px-4 md:px-20">
+    <h2 class="text-3xl font-bold mb-8 text-center">Contáctanos</h2>
+    <form action="mailto:fearellano@hotmail.com" method="POST" enctype="text/plain" class="max-w-2xl mx-auto space-y-6">
+      <input type="text" name="nombre" placeholder="Tu nombre" required class="w-full border border-gray-300 px-4 py-3 rounded-lg">
+      <input type="email" name="email" placeholder="Tu correo electrónico" required class="w-full border border-gray-300 px-4 py-3 rounded-lg">
+      <textarea name="mensaje" placeholder="Cuéntanos cómo podemos ayudarte" rows="5" required class="w-full border border-gray-300 px-4 py-3 rounded-lg"></textarea>
+      <button type="submit" class="w-full bg-gray-800 text-white font-semibold py-3 rounded-lg hover:bg-gray-700 transition">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm text-gray-500">
+    © 2025 Freelivn - Todos los derechos reservados
+  </footer>
+
+</body>
+
+</html>
